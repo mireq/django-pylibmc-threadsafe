@@ -1,0 +1,43 @@
+[project]
+name = "django_pylibmc_threadsafe"
+description = "Thread safe pylibmc cache pbackend for django"
+readme = "README.rst"
+requires-python = ">=3.7"
+keywords = ["pylibmc", "django"]
+license = {text = "MIT"}
+dynamic = ["version"]
+authors = [
+	{ name = "Miroslav Bendík", email = "miroslav.bendik@gmail.com" }
+]
+classifiers = [
+	"Programming Language :: Python :: 3",
+]
+dependencies = ["django"]
+
+[project.urls]
+homepage = "https://github.com/mireq/django-pylibmc-threadsafe"
+documentation = "https://github.com/mireq/django-pylibmc-threadsafe"
+repository = "https://github.com/mireq/django-pylibmc-threadsafe"
+changelog = "https://github.com/mireq/django-pylibmc-threadsafe/blob/master/CHANGELOG.md"
+
+[project.optional-dependencies]
+dev = [
+	"pylint",
+	"pre-commit",
+	"bump2version",
+	"commitizen"
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["django_pylibmc_threadsafe"]
+
+[tool.setuptools_scm]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.0"
+tag_format = "$version"

@@ -1,0 +1,11 @@
+.envrc
+*~
+*.pyc
+.ropeproject
+.coverage
+.tox
+build
+/django_pylibmc_threadsafe.egg-info
+/dist
+/htmlcov
+/coverage.xml
