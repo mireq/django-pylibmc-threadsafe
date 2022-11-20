@@ -33,7 +33,6 @@ requires = ["setuptools", "setuptools-scm", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["django_pylibmc_threadsafe"]
 
 [tool.setuptools_scm]
 
