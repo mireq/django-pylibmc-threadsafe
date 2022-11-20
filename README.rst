@@ -9,7 +9,7 @@ uWSGI or celery worker.
 
 This package uses separate connection for each context (thread or async context)
 and can be used as direct replacement of
-`django.core.cache.backends.memcached.PyLibMCCache``.
+``django.core.cache.backends.memcached.PyLibMCCache``.
 
 Install
 -------
