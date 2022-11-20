@@ -7,9 +7,9 @@ Thread safe pylibmc cache backend for django
 Default django pylibmc cache backend don't work correctly using multithread
 uWSGI or celery worker.
 
-This package uses separate connection for each context (thread or async
-context) and can be used as direct replacement of
-`django.core.cache.backends.memcached.PyLibMCCache`.
+This package uses separate connection for each context (thread or async context)
+and can be used as direct replacement of
+`django.core.cache.backends.memcached.PyLibMCCache``.
 
 Install
 -------
@@ -21,10 +21,10 @@ Install
 Configuration
 -------------
 
-This package has only one additional option - `ignore_exc` to suppress all
+This package has only one additional option - ``ignore_exc`` used to suppress all
 exceptions (behavior used in old
-`django.core.cache.backends.memcached.MemcachedCache` backend). All other
-options are same as `django.core.cache.backends.memcached.PyLibMCCache` options.
+``django.core.cache.backends.memcached.MemcachedCache`` backend). All other
+options are identical to ``django.core.cache.backends.memcached.PyLibMCCache``.
 
 Example configuration:
 
