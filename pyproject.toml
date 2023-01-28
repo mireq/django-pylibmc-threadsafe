@@ -12,7 +12,7 @@ authors = [
 classifiers = [
 	"Programming Language :: Python :: 3",
 ]
-dependencies = ["django"]
+dependencies = ["django", "pylibmc"]
 
 [project.urls]
 homepage = "https://github.com/mireq/django-pylibmc-threadsafe"
